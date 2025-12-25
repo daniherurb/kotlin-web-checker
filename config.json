@@ -1,0 +1,7 @@
+{
+  "urls": ["https://daniherurb.site", "https://thislinkdefinitelydoesnotworkatall.com", "https://seveneat.com"],
+  "sleep": 5,
+  "sender": "YOUR EMAIL HERE",
+  "key": "YOUR KEY HERE",
+  "receiver": "RECEIVER EMAIL HERE"
+}
