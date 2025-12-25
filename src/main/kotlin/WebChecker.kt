@@ -7,7 +7,7 @@ class WebChecker() {
         val checkers : List<Checker> =  buildCheckers()
         val configurationParameters: ConfigurationParameters = ConfigurationParameters.getConfiguration()
         val sleepTimeMilliseconds = (configurationParameters.sleep * 1000 * 60).toLong()
-        val iterations = 1
+        var iterations = 1
         printBanner()
         while(true) {
             println("--- Iteration nº$iterations ---")
@@ -15,6 +15,7 @@ class WebChecker() {
                 checker.checkStatus()
             }
             println("---------------------\n")
+            iterations++
             Thread.sleep(sleepTimeMilliseconds)
         }
     }
