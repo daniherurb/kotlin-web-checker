@@ -36,7 +36,7 @@ Here is an example of how the configuration file should look like:
 Before running the application, run the following command in your terminal to install required dependencies:
 
 ```bash
-./gradlew run
+./gradlew build
 ```
 
 From the desk of [daniherurb](https://daniherurb.site)
